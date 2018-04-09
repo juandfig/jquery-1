@@ -41,7 +41,24 @@ console.log (text)
 
 <script>
 function swapHeadlines () {
-var swap = $ ('h1') .text ('h2')
+var get = $ ('h1') .text ();
+var get2 = $ ('h1') .text ();
+var swap = $ ('h1') .text ();
+var swap2 = $ ('h2') .text ();
+};
+</script>
+
+<script>
+function noSubhed () {
+ var fade = $ ("h2").fadeout();
+ var fade = $ ("h3").fadeout();
+};
+</script>
+
+<script>
+function undo () {
+ var show = $ ("h2").show();
+ var show = $ ("h3").show();
 };
 </script>
 
