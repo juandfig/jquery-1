@@ -18,7 +18,7 @@
 
   <script>
   function getHeadline () {
-  var text = $( "h1" ).text();
+  var text = $( 'h1' ).text();
   return text
 };
 </script>
@@ -27,4 +27,22 @@
   var change = $('h1') .text ('newHeadline');
   var wiki = $('h2') .text ('A Wikipedia article');
 };
+</script>
+
+<script>
+function logHeadlines () {
+var text = $ ('h1') .text ();
+console.log (text)
+
+var text = $ ('h1') .text ();
+console.log (text)
+};
+</script>
+
+<script>
+function swapHeadlines () {
+var swap = $ ('h1') .text ('h2')
+};
+</script>
+
 </html>
